@@ -19,16 +19,37 @@
       "console": []
     },
     {
-      "id": "PoJs",
-      "code_hash": null,
-      "outputs": [],
+      "id": "MJUe",
+      "code_hash": "3f65bd68bd9bf52197a0d456982a3e14",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
     },
     {
-      "id": "oPdz",
-      "code_hash": null,
-      "outputs": [],
-      "console": []
+      "id": "vblA",
+      "code_hash": "1574e266c895922cedb0b217c33ca12a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\u001b[31mF\u001b[0m\u001b[31mF\u001b[0m\u001b[31mF\u001b[0m\u001b[31mF\u001b[0m\u001b[31m                                                                     [100%]\u001b[0m\n================================== FAILURES ===================================\n\u001b[31m\u001b[1m_______________________________ test_fibonacci1 _______________________________\u001b[0m\n\n    def test_fibonacci1():\n>       assert fibonacci(0) == 0\n\u001b[1m\u001b[31mE       assert None == 0\u001b[0m\n\u001b[1m\u001b[31mE        +  where None = fibonacci(0)\u001b[0m\n\n\u001b[1m\u001b[31mmarimo://notebook.py#cell_id=vblA\u001b[0m:4: AssertionError\n\u001b[31m\u001b[1m_______________________________ test_fibonacci2 _______________________________\u001b[0m\n\n    def test_fibonacci2():\n>       assert fibonacci(1) == 1\n\u001b[1m\u001b[31mE       assert None == 1\u001b[0m\n\u001b[1m\u001b[31mE        +  where None = fibonacci(1)\u001b[0m\n\n\u001b[1m\u001b[31mmarimo://notebook.py#cell_id=vblA\u001b[0m:7: AssertionError\n\u001b[31m\u001b[1m_______________________________ test_fibonacci3 _______________________________\u001b[0m\n\n    def test_fibonacci3():\n>       assert fibonacci(2) == 1\n\u001b[1m\u001b[31mE       assert None == 1\u001b[0m\n\u001b[1m\u001b[31mE        +  where None = fibonacci(2)\u001b[0m\n\n\u001b[1m\u001b[31mmarimo://notebook.py#cell_id=vblA\u001b[0m:10: AssertionError\n\u001b[31m\u001b[1m_______________________________ test_fibonacci4 _______________________________\u001b[0m\n\n    def test_fibonacci4():\n>       assert fibonacci(3) == 2\n\u001b[1m\u001b[31mE       assert None == 2\u001b[0m\n\u001b[1m\u001b[31mE        +  where None = fibonacci(3)\u001b[0m\n\n\u001b[1m\u001b[31mmarimo://notebook.py#cell_id=vblA\u001b[0m:13: AssertionError\n================================== Overview ===================================\n\nSummary:\nTotal: 4, Passed: 0, Failed: 4, Errors: 0, Skipped: 0\n\u001b[36m\u001b[1m=========================== short test summary info ===========================\u001b[0m\n\u001b[31mFAILED\u001b[0m notebook.py::\u001b[1mtest_fibonacci1\u001b[0m - assert None == 0\n\u001b[31mFAILED\u001b[0m notebook.py::\u001b[1mtest_fibonacci2\u001b[0m - assert None == 1\n\u001b[31mFAILED\u001b[0m notebook.py::\u001b[1mtest_fibonacci3\u001b[0m - assert None == 1\n\u001b[31mFAILED\u001b[0m notebook.py::\u001b[1mtest_fibonacci4\u001b[0m - assert None == 2\n",
+          "mimetype": "text/plain"
+        }
+      ]
     }
   ]
 }
