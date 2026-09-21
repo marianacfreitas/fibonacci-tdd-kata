@@ -15,7 +15,18 @@ def _():
 @app.function
 # Defining the signature function
 def fibonacci(n):
-    pass
+    first = 0
+    second = 1
+    if n==0:
+        return 0
+    if n==1:
+        return 1
+    else:
+        for i in range(n-1):
+            third = first + second
+            first = second
+            second = third
+        return third
 
 
 @app.cell
@@ -24,7 +35,7 @@ def _():
 
     def test_fibonacci1():
         assert fibonacci(0) == 0
-    
+
     def test_fibonacci2():
         assert fibonacci(1) == 1
 
