@@ -13,20 +13,15 @@ def _():
 
 
 @app.function
-# Defining the signature function
+# Refactored fibonacci
 def fibonacci(n):
-    first = 0
-    second = 1
-    if n==0:
-        return 0
-    if n==1:
-        return 1
-    else:
-        for i in range(n-1):
-            third = first + second
-            first = second
-            second = third
-        return third
+    n1 = 0
+    n2 = 1
+    for i in range(n):
+        temp = n1
+        n1 = n2
+        n2 = temp+n2
+    return n1
 
 
 @app.cell
