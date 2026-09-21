@@ -6,26 +6,13 @@
   },
   "cells": [
     {
-      "id": "ftNu",
-      "code_hash": "2e20c2d8d6634bc5063acc62ce83938b",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"fibonacci-function\">Fibonacci function</h1>\n<span class=\"paragraph\">This code implements the Fibonacci function using Test-Driven Development, the sequence is defined by:</span>\n<ul>\n<li>F(0) = 0  </li>\n<li>F(1) = 1 </li>\n<li>F(n) = F(n\u22121) + F(n\u22122)    for n \u2265 2</li>\n</ul></span>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
       "id": "Hbol",
-      "code_hash": "6f40f30abab5849aaf986862372ee9b3",
+      "code_hash": "27ffce8606bc26dfabe55f0b621625e0",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/plain": ""
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"fibonacci-function\">Fibonacci function</h1>\n<span class=\"paragraph\">This code implements the Fibonacci function using Test-Driven Development, the sequence is defined by:</span>\n<ul>\n<li>F(0) = 0</li>\n<li>F(1) = 1</li>\n<li>F(n) = F(n\u22121) + F(n\u22122)    for n \u2265 2</li>\n</ul></span>"
           }
         }
       ],
@@ -33,6 +20,12 @@
     },
     {
       "id": "MJUe",
+      "code_hash": "6f40f30abab5849aaf986862372ee9b3",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "vblA",
       "code_hash": "e23dd0deb29ef1be7aef971040e25b64",
       "outputs": [
         {
@@ -45,8 +38,26 @@
       "console": []
     },
     {
-      "id": "vblA",
+      "id": "bkHC",
       "code_hash": "eb591792e076cf42872990af90e78154",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "7247536547b417c79bdd52bdc47eec16",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "5cf4551275fc73330770f8cfc64e62bc",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "QMQQ",
+      "code_hash": "de3e21bf859d5e3fe2252d37e838224b",
       "outputs": [
         {
           "type": "data",
@@ -59,36 +70,43 @@
         {
           "type": "stream",
           "name": "stdout",
-          "text": "\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m                                                                     [100%]\u001b[0m\n================================== Overview ===================================\nPassed Tests:\n\u001b[1m\u001b[32m\u001b[22m\u2713\u001b[0m\u001b[0m notebook.py::test_fibonacci1\n\u001b[1m\u001b[32m\u001b[22m\u2713\u001b[0m\u001b[0m notebook.py::test_fibonacci2\n\u001b[1m\u001b[32m\u001b[22m\u2713\u001b[0m\u001b[0m notebook.py::test_fibonacci3\n\u001b[1m\u001b[32m\u001b[22m\u2713\u001b[0m\u001b[0m notebook.py::test_fibonacci4\n\nSummary:\nTotal: 4, Passed: 4, Failed: 0, Errors: 0, Skipped: 0\n",
+          "text": "\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m                                                                       [100%]\u001b[0m\n================================== Overview ===================================\nPassed Tests:\n\u001b[1m\u001b[32m\u001b[22m\u2713\u001b[0m\u001b[0m notebook.py::test_fibonacci_100\n\u001b[1m\u001b[32m\u001b[22m\u2713\u001b[0m\u001b[0m notebook.py::test_fibonacci_1000\n\nSummary:\nTotal: 2, Passed: 2, Failed: 0, Errors: 0, Skipped: 0\n",
           "mimetype": "text/plain"
         }
       ]
     },
     {
-      "id": "ulkq",
-      "code_hash": "7247536547b417c79bdd52bdc47eec16",
+      "id": "DrpO",
+      "code_hash": "a4737ebc0b2004e53c1141d3866612b5",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='ulkq-0' random-id='c3f38554-7bfb-04c3-6da8-48bee8862f69'><marimo-number data-initial-value='5' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003eChoose n:&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='0' data-stop='50' data-step='1' data-debounce='false' data-full-width='false' data-disabled='false'></marimo-number></marimo-ui-element>"
+            "text/plain": ""
           }
         }
       ],
       "console": []
     },
     {
-      "id": "ozpl",
-      "code_hash": "da33bd4959f246c258126e01a1bad6ad",
+      "id": "FMyW",
+      "code_hash": "6f631cb37d54542761bb9f1ee4536076",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"result\">Result</h2>\n<span class=\"paragraph\">Fibonacci(10) = <strong>55</strong></span></span>"
+            "text/plain": ""
           }
         }
       ],
-      "console": []
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m                                                                       [100%]\u001b[0m\n================================== Overview ===================================\nPassed Tests:\n\u001b[1m\u001b[32m\u001b[22m\u2713\u001b[0m\u001b[0m notebook.py::test_fibonacci_100_v2\n\u001b[1m\u001b[32m\u001b[22m\u2713\u001b[0m\u001b[0m notebook.py::test_fibonacci_1000_v2\n\nSummary:\nTotal: 2, Passed: 2, Failed: 0, Errors: 0, Skipped: 0\n",
+          "mimetype": "text/plain"
+        }
+      ]
     }
   ]
 }
