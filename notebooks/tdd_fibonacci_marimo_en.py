@@ -8,12 +8,12 @@ app = marimo.App(width="medium")
 def _(mo):
     mo.md(r"""
     # Fibonacci function
-    This code implements the Fibonacci function using Test-Driven Development, the sequence is defined by:
+    This code implements the Fibonacci function using Test-Driven Development,
+     the sequence is defined by:
     - F(0) = 0
     - F(1) = 1
     - F(n) = F(n−1) + F(n−2)    for n ≥ 2
     """)
-    
 
 
 @app.cell
@@ -28,10 +28,10 @@ def _():
 def fibonacci(n):
     n1 = 0
     n2 = 1
-    for i in range(n):
+    for _i in range(n):
         temp = n1
         n1 = n2
-        n2 = temp+n2
+        n2 = temp + n2
     return n1
 
 
@@ -51,18 +51,10 @@ def _():
     def test_fibonacci4():
         assert fibonacci(3) == 2
 
-    
-
 
 @app.cell
 def _(mo):
-    n = mo.ui.number(
-            start=0,
-            stop=50,
-            step=1,
-            value=5,
-            label="Choose n:"
-        )
+    n = mo.ui.number(start=0, stop=50, step=1, value=5, label="Choose n:")
     return (n,)
 
 
@@ -70,15 +62,13 @@ def _(mo):
 def _(mo, n):
     result = fibonacci(n.value)
 
-
     mo.md(
-            f"""
+        f"""
             ## Result
 
             Fibonacci({n.value}) = **{result}**
             """
-        )
-    
+    )
 
 
 @app.cell
@@ -91,8 +81,6 @@ def _():
         assert fibonacci(1000) == (
             43466557686937456435688527675040625802564660517371780402481729089536555417949051890403879840079255169295922593080322634775209689623239873322471161642996440906533187938298969649928516003704476137795166849228875
         )
-
-    
 
 
 @app.function
