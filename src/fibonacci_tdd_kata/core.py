@@ -1,4 +1,4 @@
-def fibonacci(n:int) -> int:
+def fibonacci(n: int) -> int:
     n1 = 0
     n2 = 1
     for _i in range(n):

@@ -45,7 +45,7 @@ def _(end, fibonacci, start):
 @app.cell
 def _(inputs, plt, results):
     fig, ax = plt.subplots()
-    ax.plot(results, inputs, marker = "o")
+    ax.plot(results, inputs, marker="o")
     ax.set_ylabel("Fibonacci output")
     ax.set_xlabel("Input")
     ax.set_title("Fibonacci sequence over the selected range")
