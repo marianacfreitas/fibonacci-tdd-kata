@@ -8,10 +8,10 @@ app = marimo.App(width="medium")
 def _():
     import marimo as mo
     import matplotlib.pyplot as plt
-    from collections import Counter
+
     from fibonacci_tdd_kata import fibonacci
 
-    return Counter, fibonacci, mo, plt
+    return fibonacci, mo, plt
 
 
 @app.cell(hide_code=True)
