@@ -1,3 +1,12 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "fibonacci-tdd-kata",
+#     "marimo",
+#     "matplotlib",
+# ]
+# ///
+
 import marimo
 
 __generated_with = "0.24.2"
